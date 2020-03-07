@@ -5,15 +5,6 @@
 
 using namespace std;
 
-void print(vector<float> const &input)
-{
-	for (auto const& i: input)
-	{
-		std::cout << i << " ";
-	}
-	cout << endl;
-}
-
 float percentile(vector<float> const &input, float fraction)
 {
 	float r = fraction*(input.size() - 1);
